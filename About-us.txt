@@ -1,0 +1,160 @@
+<p> <strong> Ласкаво просимо у світ плюшевих чарівників! </strong> </br> <strong> Ми </strong> – маленький, але дуже відповідальний розплідник домашнього типу, де виростають справжні аристократи котячого світу. </br> <strong> Наші вихованці </strong> – представники породи Scottish у рідкісних золотистих забарвленнях: </p>
+<div class="profile">
+<div class="profile-picture">
+<img src="/SirBublikFamily/wp-content/uploads/2025/01/0-02-05-568ad3ae82007a0055ec1f42f10d679e6788d2410268118b46a0e61ae4b3ff3a_59707c4bcffed585-768x1024.jpg" />
+</div>
+<div class="profile-description">
+<div>
+<p> <strong> Бублик </strong> </p> 
+<p> Наш харизматичний скотіш-фолд (ny11), володар м’яких складочок на вушках і ще м’якшого характеру. Головний муркотерапевт дому! </p>
+</div>
+</div>
+</div> 
+<div class="profile" id="heidi">
+</div>
+<div class="profile">
+<div class="profile-picture">
+<img src="/SirBublikFamily/wp-content/uploads/2025/01/0-02-05-38e829381ee08d47cf731a7a8fe0a7cc34976e03df1ebf3fc2e3c8668b0f94fe_d1df10c7ff939700-768x1024.jpg" />
+</div>
+<div class="profile-description">
+<div>
+<p> <strong> Мілка </strong> </p>
+<p> Наша сонячна дівчинка скотіш-страйт (ny12) з рідкісним затіненим золотим забарвленням. Вона не просто красуня, а справжній еталон грації. </p>
+</div>
+</div>
+</div> 
+<br/>
+<p class="our-kittens"> <strong> Наші кошенята: </strong> <br/> 26 січня у нас народилося особливе поповнення – перші малюки нашого розплідника! Зараз вони ростуть, набираються сил і готуються до знайомства зі своїми майбутніми родинами. Ми гарантуємо їм найкращий старт у житті: </p>
+<ul>
+<li> Правильне харчування </li>
+<li> Ветеринарний контроль </li>
+<li> Виховання та соціалізація </li>
+</ul>
+<p class="why-scots"> <strong> Чому саме шотландці? </strong> <br/> Порода Scottish Fold & Straight – це не просто красень із плюшевою шерстю, а ідеальний домашній улюбленець: </p>
+<ul> 
+<li> Спокійний та врівноважений характер </li>
+<li> Розумні та легко адаптуються </li>
+<li> Не вимагають складного догляду </li>
+<li> Гіпоалергенна шерсть </li>
+</ul>
+<p class="our-scots"> <strong> Наші шотландці </strong> – це сімейні улюбленці з чудовими генами, гарним здоров’ям та вихованням. Якщо ви мрієте про справжнього плюшевого друга – слідкуйте за нашими новинами! Незабаром ми познайомимо вас з нашими маленькими красенями! </p>
+<script>
+let heidi = document.getElementById('heidi')
+if (window.innerWidth > 600) {
+
+let profileDescription = document.createElement('div')
+profileDescription.setAttribute("class", "profile-description")
+let div = document.createElement('div')
+let p = document.createElement('p')
+let strong = document.createElement('strong')
+strong.innerText = 'Хайді'
+p.appendChild(strong)
+div.appendChild(p)
+let p1 = document.createElement('p')
+p1.innerText = 'Витончена скотіш-страйт (ny11), граційна і ніжна, наче королівна з британського двору.'
+div.appendChild(p1)
+profileDescription.appendChild(div)
+heidi.appendChild(profileDescription)
+
+let profilePicture = document.createElement('div')
+profilePicture.setAttribute("class", "profile-picture")
+let img = document.createElement('img')
+img.setAttribute("src", "/SirBublikFamily/wp-content/uploads/2025/01/0-02-05-51fdf3f21ca34c5a2c488d5fc9aef2f74ca3c4c67b7313a029f25d6240ea08ef_40d70e159f7b51d3-768x1024.jpg")
+profilePicture.appendChild(img)
+heidi.appendChild(profilePicture)
+
+} else {
+
+let profilePicture1 = document.createElement('div')
+profilePicture1.setAttribute("class", "profile-picture")
+let img1 = document.createElement('img')
+img1.setAttribute("src", "http://localhost/SirBublikFamily/wp-content/uploads/2025/01/0-02-05-51fdf3f21ca34c5a2c488d5fc9aef2f74ca3c4c67b7313a029f25d6240ea08ef_40d70e159f7b51d3-768x1024.jpg")
+profilePicture1.appendChild(img1)
+heidi.appendChild(profilePicture1)
+
+let profileDescription1 = document.createElement('div')
+profileDescription1.setAttribute("class", "profile-description")
+let div1 = document.createElement('div')
+let p1 = document.createElement('p')
+let strong1 = document.createElement('strong')
+strong1.innerText = 'Хайді'
+p1.appendChild(strong1)
+div1.appendChild(p1)
+let p1_1 = document.createElement('p')
+p1_1.innerText = 'Витончена скотіш-страйт (ny11), граційна і ніжна, наче королівна з британського двору.'
+div1.appendChild(p1_1)
+profileDescription1.appendChild(div1)
+heidi.appendChild(profileDescription1)
+
+}
+</script>
+<style>
+p {
+text-align: justify;
+}
+.profile {
+height: 25vw;
+}
+.profile-picture {
+width: 30%;
+height: 25vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.profile-picture img {
+height: 80%;
+}
+.profile-description {
+width: 70%;
+height: 25vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: start;
+}
+.profile-description div {
+width: 100%;
+padding: 20%;
+}
+.profile-description div p {
+margin: 0px;
+margin-left: 40px;
+margin-right: 20px;
+}
+.our-kittens {
+margin-top: 6vw;
+}
+.why-scots {
+margin-top: 6vw;
+}
+.our-scots {
+margin-top: 6vw;
+}
+@media (max-width: 600px) {
+.profile-picture {
+width: 100%;
+height: 50vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.profile-description {
+width: 100%;
+height: 50vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: start;
+}
+.profile-description div {
+width: 100%;
+padding: 0px;
+}
+.profile-description div p {
+margin: 0px;
+}
+}
+</style>
