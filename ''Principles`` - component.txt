@@ -1,0 +1,209 @@
+<div class="principles" id="principles"> </div>
+<script>
+let principles = document.getElementById('principles')
+if(window.innerWidth > 1000) {
+
+let principlesContainer = document.createElement('div')
+
+let number1 = document.createElement('div')
+number1.setAttribute("class","number")
+let p1_1 = document.createElement('p')
+p1_1.innerText = '1'
+number1.appendChild(p1_1)
+principlesContainer.appendChild(number1)
+
+let principleContainer1 = document.createElement('div')
+principleContainer1.setAttribute("class","principle-container")
+let principle1 = document.createElement('div')
+principle1.setAttribute("class","principle")
+let h1 = document.createElement('h2')
+h1.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h1.innerText = 'Здоров’я'
+principle1.appendChild(h1)
+let p1 = document.createElement('p')
+p1.innerText = 'Наші котики мають чудову генетику, проходять всі необхідні обстеження та ветеринарний контроль.'
+principle1.appendChild(p1)
+principleContainer1.appendChild(principle1)
+principlesContainer.appendChild(principleContainer1)
+
+let principleContainer2 = document.createElement('div')
+principleContainer2.setAttribute("class","principle-container")
+let principle2 = document.createElement('div')
+principle2.setAttribute("class","principle")
+let h2 = document.createElement('h2')
+h2.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h2.innerText = 'Соціалізація'
+principle2.appendChild(h2)
+let p2 = document.createElement('p')
+p2.innerText = 'Кожне кошеня росте в родинній атмосфері, знайоме з домашнім життям і звикле до людей.'
+principle2.appendChild(p2)
+principleContainer2.appendChild(principle2)
+principlesContainer.appendChild(principleContainer2)
+
+let number2 = document.createElement('div')
+number2.setAttribute("class","number")
+let p2_2 = document.createElement('p')
+p2_2.innerText = '2'
+number2.appendChild(p2_2)
+principlesContainer.appendChild(number2)
+
+let number3 = document.createElement('div')
+number3.setAttribute("class","number")
+let p3_2 = document.createElement('p')
+p3_2.innerText = '3'
+number3.appendChild(p3_2)
+principlesContainer.appendChild(number3)
+
+let principleContainer3 = document.createElement('div')
+principleContainer3.setAttribute("class","principle-container")
+let principle3 = document.createElement('div')
+principle3.setAttribute("class","principle")
+let h3 = document.createElement('h2')
+h3.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h3.innerText = 'Краса та порода'
+principle3.appendChild(h3)
+let p3 = document.createElement('p')
+p3.innerText = 'Ми дбаємо про збереження стандартів породи, тому наші малюки – це втілення елегантності та грації.'
+principle3.appendChild(p3)
+principleContainer3.appendChild(principle3)
+principlesContainer.appendChild(principleContainer3)
+
+principles.appendChild(principlesContainer)
+
+} else {
+
+let principlesContainer = document.createElement('div')
+
+let number1 = document.createElement('div')
+number1.setAttribute("class","number")
+let p1_1 = document.createElement('p')
+p1_1.innerText = '1'
+number1.appendChild(p1_1)
+principlesContainer.appendChild(number1)
+
+let principleContainer1 = document.createElement('div')
+principleContainer1.setAttribute("class","principle-container")
+let principle1 = document.createElement('div')
+principle1.setAttribute("class","principle")
+let h1 = document.createElement('h2')
+h1.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h1.innerText = 'Здоров’я'
+principle1.appendChild(h1)
+let p1 = document.createElement('p')
+p1.innerText = 'Ми прагнемо не просто вирощувати кошенят, а створювати ідеальні умови для їхнього здорового розвитку, забезпечуючи кожному малюку найкращий старт у житті.'
+principle1.appendChild(p1)
+principleContainer1.appendChild(principle1)
+principlesContainer.appendChild(principleContainer1)
+
+let number2 = document.createElement('div')
+number2.setAttribute("class","number")
+let p2_2 = document.createElement('p')
+p2_2.innerText = '2'
+number2.appendChild(p2_2)
+principlesContainer.appendChild(number2)
+
+let principleContainer2 = document.createElement('div')
+principleContainer2.setAttribute("class","principle-container")
+let principle2 = document.createElement('div')
+principle2.setAttribute("class","principle")
+let h2 = document.createElement('h2')
+h2.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h2.innerText = 'Соціалізація'
+principle2.appendChild(h2)
+let p2 = document.createElement('p')
+p2.innerText = 'Кожне кошеня росте в родинній атмосфері, знайоме з домашнім життям і звикле до людей.'
+principle2.appendChild(p2)
+principleContainer2.appendChild(principle2)
+principlesContainer.appendChild(principleContainer2)
+
+let number3 = document.createElement('div')
+number3.setAttribute("class","number")
+let p1_3 = document.createElement('p')
+p1_3.innerText = '3'
+number3.appendChild(p1_3)
+principlesContainer.appendChild(number3)
+
+let principleContainer3 = document.createElement('div')
+principleContainer3.setAttribute("class","principle-container")
+let principle3 = document.createElement('div')
+principle3.setAttribute("class","principle")
+let h3 = document.createElement('h2')
+h3.setAttribute("class","wp-block-heading has-text-align-center is-style-default has-large-font-size")
+h3.innerText = 'Краса та порода'
+principle3.appendChild(h3)
+let p3 = document.createElement('p')
+p3.innerText = 'Ми дбаємо про збереження стандартів породи, тому наші малюки – це втілення елегантності та грації.'
+principle3.appendChild(p3)
+principleContainer3.appendChild(principle3)
+principlesContainer.appendChild(principleContainer3)
+
+principles.appendChild(principlesContainer)
+}
+</script>
+<style>
+.principles {
+width 100%;
+height: 26vw;
+}
+.number {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30%;
+height: 200px;
+float: left;
+}
+.number div {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.number p {
+font-size: 200px;
+font-weight: bold;
+font-family: "Bradley Hand ITC";
+margin: 0px;
+}
+@media (max-width: 600px) {
+.number {
+width: 100%;
+margin-top: 6%;
+margin-bottom: 6%;
+}
+.number p {
+font-size: 85px;
+background: white;
+width: 140px;
+height: 140px;
+border-radius: 50%;
+text-align: center;
+}
+}
+.principle-container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 70%;
+height: 200px;
+float: left;
+}
+.principle-container .principle p {
+text-align: justify;
+margin: 0px;
+}
+.principle-container .principle h2 {
+text-align: left;
+margin: 0px;
+margin-left: 2vw;
+}
+@media (max-width: 600px) {
+.principle-container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 300px;
+float: left;
+}
+}
+</style>
