@@ -1,0 +1,82 @@
+<div class="banner">
+<div> 
+<div>
+<div class="secondColumn">
+<img src="/SirBublikFamily/wp-content/uploads/2025/03/Бублік.png"/> 
+</div>
+<div class="firstColumn">
+<div class="row">
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+</div>
+<div class="row"> 
+<div class="message">
+<div>
+<h2> Наш головний </h2>
+<h2> красунчик Бублик </h2>
+</div>
+</div> 
+</div>
+<div class="row">
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+<img src="/SirBublikFamily/wp-content/uploads/2025/02/0-02-05-3ac4166bec8fca85b72b98c59d60bdc41665d3047df4ef0864b55c260e5cca93_1c96fac3c84e58c6.jpg"/> 
+</div>
+</div>
+</div> 
+</div>
+</div>
+<style>
+.banner {
+height: 37vw;
+}
+.banner < div {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.firstColumn {
+width: 36vw;
+float: left;
+}
+.firstColumn .row img {
+width: 11vw;
+margin-left: 1vw;
+float: left;
+}
+.firstColumn .row .message {
+width: 35vw;
+height: 8.65vw;
+margin-top: 1vw;
+margin-bottom: 1vw;
+margin-left: 1vw;
+background-color: #dbc6c1;
+border-radius: 1vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.firstColumn .row .message div {
+text-align: center;
+}
+.firstColumn .row .message div h2 {
+margin: 0px;
+font-family: "Ink Free";
+font-size: 3vw;
+font-weight: bold;
+color: black;
+}
+.secondColumn {
+width: 25vw;
+height: 40vw;
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.secondColumn img {
+width: 100%;
+}
+</style>
